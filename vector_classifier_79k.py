@@ -236,6 +236,7 @@ best_accuracy = evaluate_model(best_model_name, test_gen)
 
 scores[0, 0] = best_accuracy if best_accuracy > final_accuracy else final_accuracy
 
+#kept euclidean distance for testing but was found to be not effective on dataset 
 '''
 ### EUCLIDEAN DISTANCE
 print('euclidean distance')
